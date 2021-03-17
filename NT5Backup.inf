@@ -1,0 +1,27 @@
+; NT5Backup.inf
+; PE Builder v3 plug-in INF file
+; Created by STSanford
+;
+;Windows XP Backup
+
+[Version]
+Signature= "$Windows NT$"
+
+[PEBuilder]
+Name="Windows XP Backup Plugin" 
+Enable=1
+
+
+
+[WinntDirectories]
+a="Programs\NT5Backup",2
+
+
+[SourceDisksFiles]
+files\ntbackup.exe=2
+files\ntmsapi.dll=2
+files\vssapi.dll=2
+[Append]
+nu2menu.xml, NT5Backup_nu2menu.xml
+
+

@@ -1,0 +1,9 @@
+<!-- XPBackup_nu2menu.xml -->
+<!-- Nu2Menu entry for Windows XP Backup-->
+<NU2MENU>
+<MENU ID="Utilities"> 
+		<MITEM TYPE="ITEM" DISABLED="@Not(@FileExists(@GetWinDir()\system32\ntbackup.exe))" CMD="RUN" FUNC="@GetWinDir()\system32\ntbackup.exe">Windows Backup</MITEM>
+</MENU>
+</NU2MENU>
+
+
